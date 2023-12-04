@@ -25,7 +25,7 @@ export default function ImageSwitch ({ images, name }) {
         {
           images.map((image, index) => (
             <input
-              className="appearance-none rounded-xl w-3 h-3 bg-sand-100 checked:bg-sand-400"
+              className="appearance-none rounded-xl w-3 h-3 bg-sand-100 checked:bg-sand-400 cursor-pointer"
               type="radio"
               id={image.id}
               name={name}
