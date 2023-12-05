@@ -6,6 +6,18 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    extend: {
+      keyframes: {
+        bannermove: {
+          '0%': {
+            transform: 'translateX(0)'
+          },
+          '100%': {
+            transform: 'translateX(-50%)'
+          }
+        }
+      }
+    },
     colors: {
       'dark-sand': {
         500: '#201A10',

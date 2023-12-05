@@ -21,6 +21,16 @@ import saoPauloImageTrain from '@/images/sao-paulo/sao-paulo-train.png'
 import ufabcSantoAndre from '@/images/ufabc/ufabc-santo-andre.png'
 import ufabcSaoBernardo from '@/images/ufabc/ufabc-sao-bernardo.png'
 
+import natureWaterfall from '@/images/nature/nature-waterfall.png'
+import natureFamily from '@/images/nature/nature-family.png'
+import naturePlains from '@/images/nature/nature-plains.png'
+import natureMother from '@/images/nature/nature-mother.png'
+
+import BD1 from '@/images/3d-printing/bd-1.png'
+import luffy from '@/images/3d-printing/luffy.png'
+import blueEyesWhiteDragon from '@/images/3d-printing/blue-eyes-white-dragon.png'
+import gomuGomuNoMi from '@/images/3d-printing/gomu-gomu-no-mi.png'
+
 import ImageSwitch from './_components/image-switch'
 
 const technologies = [{
@@ -87,6 +97,24 @@ const ufabcImages = [{
   id: 'ufabc-sao-bernardo'
 }]
 
+const threeDPrintingImages = [{
+  image: BD1,
+  alternativeText: 'A 3d printed replica of BD-1 about 40cm tall.',
+  id: '3d-printing-bd1'
+}, {
+  image: luffy,
+  alternativeText: 'A 3d printed Luffy with an inflated fist.',
+  id: '3d-printing-luffy'
+}, {
+  image: blueEyesWhiteDragon,
+  alternativeText: 'A 3d printed Blue Eyes Ultimate Dragon partially out of a Yu-Gi-Oh card.',
+  id: '3d-printing-dragon'
+}, {
+  image: gomuGomuNoMi,
+  alternativeText: 'A 3d printed replica of a Gomu Gomu no Mi.',
+  id: '3d-printing-gomu'
+}]
+
 const TechnologiesWorkedWith = () => (
   <ul className="flex flex-wrap justify-center gap-4">
     {technologies.map((technology) => (
@@ -114,9 +142,13 @@ export default function Home () {
       <section className="bg-gradient-to-t from-sand-200 to-dark-sand-500 from-10% to-10%">
         <div className="max-w-screen-lg mx-auto w-full md:flex pt-20 md:pt-40 px-5">
           <div className="md:w-1/2">
-            <p className="text-h2 text-purple-200">Hey! I'm</p>
+            <p className="text-h2 text-purple-200">
+              Hey! I'm
+            </p>
 
-            <h1 className="text-h1 text-sand-100 font-medium mt-4">Gustavo Iha</h1>
+            <h1 className="text-h1 text-sand-100 font-medium mt-4">
+              Gustavo Iha
+            </h1>
 
             <p className="text-p1 text-sand-100 mt-10">
               A multidisciplinary nerd passionate about writing code, 3D printing, and talking about business and science.
@@ -129,6 +161,7 @@ export default function Home () {
               alt="Picture of Gustavo Iha seen from the front."
               className="rounded-3xl"
               quality={100}
+              priority={true}
             />
           </div>
         </div>
@@ -177,9 +210,13 @@ export default function Home () {
       <section className="bg-purple-500">
         <div className="max-w-screen-lg mx-auto w-full lg:flex lg:gap-16 pt-32 pb-16 px-5">
           <div className="lg:w-1/2">
-            <p className="text-h3 text-sand-300">I'm currently living in</p>
+            <p className="text-h3 text-sand-300">
+              I'm currently living in
+            </p>
 
-            <h1 className="text-h2 text-sand-100 mt-4">São Paulo, Brazil</h1>
+            <h2 className="text-h2 text-sand-100 mt-4">
+              São Paulo, Brazil
+            </h2>
 
             <p className="text-p1 text-sand-100 mt-12">
               São Paulo is the international hub for amazing food and culture. I love moving around the city riding a bicycle and taking the subway.
@@ -206,7 +243,7 @@ export default function Home () {
       <section className="bg-gradient-to-t from-dark-sand-500 to-sand-200 from-15% to-15% md:from-10% md:to-10%">
         <div className="max-w-screen-lg mx-auto w-full pt-32 px-5">
           <h2 className="text-h2 font-medium text-purple-500">
-          Why work with me?
+            Why work with me?
           </h2>
 
           <p className="text-p1 text-purple-500 mt-12">
@@ -214,7 +251,7 @@ export default function Home () {
           </p>
 
           <p className="text-p1 text-purple-500 mt-8">
-          I thrive in a <span className="text-dark-sand-300 font-medium">responsibilities-heavy role</span>, working very close to C-levels and product decision-makers.
+            I thrive in a <span className="text-dark-sand-300 font-medium">responsibilities-heavy role</span>, working very close to C-levels and product decision-makers.
           </p>
 
           <div className="rounded-xl p-4 md:p-0 md:py-4 mt-24 bg-sand-500 text-purple-500 md:flex">
@@ -244,9 +281,13 @@ export default function Home () {
       <section className="bg-dark-sand-500">
         <div className="max-w-screen-lg mx-auto w-full lg:flex lg:gap-16 pt-32 pb-16 px-5">
           <div className="lg:w-1/2">
-            <p className="text-h3 text-neutral-200">Universidade Federal do ABC</p>
+            <p className="text-h3 text-neutral-200">
+              Universidade Federal do ABC
+            </p>
 
-            <h1 className="text-h2 text-sand-100 mt-4">UFABC</h1>
+            <h2 className="text-h2 text-sand-100 mt-4">
+              UFABC
+            </h2>
 
             <p className="text-subtitle text-sand-100 mt-4">
               Bachelors in Science and Technology
@@ -265,6 +306,97 @@ export default function Home () {
             <ImageSwitch
               images={ufabcImages}
               name="ufabc"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-sand-200">
+        <div className="py-32 overflow-hidden">
+          <div className="max-w-screen-lg mx-auto w-full px-5">
+            <h2 className="text-h2 text-purple-500">
+              Nature is my best friend
+            </h2>
+          </div>
+
+          <div
+            className="flex gap-4 mt-16 h-[32rem] animate-[bannermove_5s_linear_infinite] md:animate-[bannermove_15s_linear_infinite] lg:animate-[bannermove_20s_linear_infinite]"
+          >
+            <Image
+              src={natureWaterfall}
+              alt=""
+              className="rounded-3xl"
+            />
+
+            <Image
+              src={natureFamily}
+              alt=""
+              className="rounded-3xl"
+            />
+
+            <Image
+              src={naturePlains}
+              alt=""
+              className="rounded-3xl"
+            />
+
+            <Image
+              src={natureMother}
+              alt=""
+              className="rounded-3xl"
+            />
+
+            <Image
+              src={natureWaterfall}
+              alt=""
+              className="rounded-3xl"
+            />
+
+            <Image
+              src={natureFamily}
+              alt=""
+              className="rounded-3xl"
+            />
+
+            <Image
+              src={naturePlains}
+              alt=""
+              className="rounded-3xl"
+            />
+
+            <Image
+              src={natureMother}
+              alt=""
+              className="rounded-3xl"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-sand-200">
+        <div className="max-w-screen-lg mx-auto w-full lg:flex lg:gap-16 pt-32 pb-16 px-5 border-solid border-t border-sand-500">
+          <div className="lg:w-1/2">
+            <h2 className="text-h2 text-purple-500 mt-4">
+              3D Printing
+            </h2>
+
+            <p className="text-p1 text-purple-500 mt-12">
+              My passion for 3D modeling began at college, when I developed a 3D game on Unity including a complete textured map and 3D characters that I modeled myself on Blender.
+            </p>
+
+            <p className="text-p1 text-purple-500 mt-8">
+              In 2021 I tried out 3D printing and absolutely fell in love with the possibility of creating anything straight out of my imagination.
+            </p>
+
+            <p className="text-p1 text-purple-500 mt-8">
+              I own a Creality CR-10 V3 FDM printer.
+            </p>
+          </div>
+
+          <div className="mt-20 lg:mt-0 lg:w-1/2 lg:flex lg:justify-end">
+            <ImageSwitch
+              images={threeDPrintingImages}
+              name="3d-printing"
             />
           </div>
         </div>
