@@ -11,7 +11,7 @@ export default function SectionNature () {
       <div className="py-32 overflow-hidden">
         <div className="max-w-screen-lg mx-auto w-full px-5">
           <h2 className="text-h2 text-purple-500">
-            Nature is my best friend
+            I'm best friends with Nature
           </h2>
         </div>
 
