@@ -34,6 +34,7 @@ export default function ImageSwitch ({ images, name }: { images: Array<Image>, n
               className="appearance-none rounded-xl w-3 h-3 bg-sand-100 checked:bg-sand-400 cursor-pointer"
               type="radio"
               id={image.id}
+              key={image.id}
               name={name}
               value={index}
               checked={index === currentImageIndex}
