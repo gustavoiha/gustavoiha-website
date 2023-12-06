@@ -16,6 +16,10 @@ export default function () {
           working very close to C-levels and product decision-makers.
         </p>
 
+        <p className="text-p1 text-slate-950 mt-8">
+          I often interact with everybody in my team, be it making dozens of pull requests suggestions, or asking for another set of eyes on code I'm writting.
+        </p>
+
         <div className="rounded-xl p-4 md:p-0 md:py-8 mt-24 bg-slate-800 text-slate-50 md:flex">
           <div className="md:w-1/2 md:px-8">
             <p className="text-h3">
