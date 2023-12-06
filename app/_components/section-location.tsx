@@ -30,26 +30,26 @@ const saoPauloImages = [{
 
 export default function SectionLocation () {
   return (
-    <section className="bg-purple-500">
+    <section className="bg-slate-200">
       <div className="max-w-screen-lg mx-auto w-full lg:flex lg:gap-16 pt-32 pb-16 px-5">
         <div className="lg:w-1/2">
-          <p className="text-h3 text-sand-300">
+          <p className="text-h3 text-blue-800">
             I'm currently living in
           </p>
 
-          <h2 className="text-h2 text-sand-100 mt-4">
+          <h2 className="text-h2 text-slate-950 mt-4">
             São Paulo, Brazil
           </h2>
 
-          <p className="text-p1 text-sand-100 mt-12">
+          <p className="text-p1 text-slate-950 mt-12">
             São Paulo is the international hub for amazing food and culture. I love moving around the city riding a bicycle and taking the subway.
           </p>
 
-          <p className="text-p1 text-sand-100 mt-8">
+          <p className="text-p1 text-slate-950 mt-8">
             I enjoy spending time here with my family and most of my friends, who all live near to me.
           </p>
 
-          <p className="text-p1 text-sand-100 mt-8">
+          <p className="text-p1 text-slate-950 mt-8">
             And as much as I love this city, I am very eager to begin my international career and spend time abroad.
           </p>
         </div>

@@ -15,26 +15,26 @@ const ufabcImages = [{
 
 export default function SectionEducation () {
   return (
-    <section className="bg-dark-sand-500">
+    <section className="bg-slate-200">
       <div className="max-w-screen-lg mx-auto w-full lg:flex lg:gap-16 pt-32 pb-16 px-5">
         <div className="lg:w-1/2">
-          <p className="text-h3 text-neutral-200">
+          <p className="text-h3 text-purple-800">
             Universidade Federal do ABC
           </p>
 
-          <h2 className="text-h2 text-sand-100 mt-4">
+          <h2 className="text-h2 text-slate-950 mt-4">
             UFABC
           </h2>
 
-          <p className="text-subtitle text-sand-100 mt-4">
+          <p className="text-subtitle text-slate-950 mt-4">
             Bachelors in Science and Technology
           </p>
 
-          <p className="text-p1 text-sand-100 mt-12">
+          <p className="text-p1 text-slate-950 mt-12">
             In 2013, I joined one of Brazil's most prestigious universities. All professors hold PhDs, and the curriculum is multidisciplinary, covering topics like Multi-vector Calculus, Quantum Physics, Ethics, and Evolutionary Biology.
           </p>
 
-          <p className="text-p1 text-sand-100 mt-8">
+          <p className="text-p1 text-slate-950 mt-8">
             My projects ranged from scripting numerical computations for asteroid and fluid particle movements in C to creating a Java-based Android app that controlled an Arduino robot via Bluetooth. I even delved into the world of gaming and developed a 3D game complete with 3D assets, character animations, and C# scripts.
           </p>
         </div>

@@ -7,10 +7,10 @@ import natureMother from '@/images/nature/nature-mother.png'
 
 export default function SectionNature () {
   return (
-    <section className="bg-sand-200">
+    <section className="bg-slate-50">
       <div className="py-32 overflow-hidden">
         <div className="max-w-screen-lg mx-auto w-full px-5">
-          <h2 className="text-h2 text-purple-500">
+          <h2 className="text-h2 text-slate-950">
             I'm best friends with Nature
           </h2>
         </div>

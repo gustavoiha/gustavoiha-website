@@ -45,9 +45,9 @@ const technologies = [{
 
 export default function SectionTechnologies () {
   return (
-    <section className="bg-sand-500">
+    <section className="bg-slate-50">
       <div className="max-w-screen-lg mx-auto w-full pt-16 pb-32 px-5">
-        <h2 className="text-h2 text-purple-500 text-center">
+        <h2 className="text-h2 text-slate-950 text-center">
           Technologies I have worked closely with
         </h2>
 
@@ -55,7 +55,7 @@ export default function SectionTechnologies () {
           <ul className="flex flex-wrap justify-center gap-4">
             {technologies.map((technology) => (
               <li
-                className="block grid justify-center min-w-[10rem] bg-sand-100 text-center text-subtitle text-neutral-300 p-5 rounded-lg flex-auto"
+                className="block grid justify-center min-w-[10rem] bg-slate-200 text-center text-subtitle text-slate-700 p-5 rounded-lg flex-auto"
                 key={technology.label}
               >
                 <Image

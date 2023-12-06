@@ -25,22 +25,23 @@ const threeDPrintingImages = [{
 
 export default function Section3DPrinting () {
   return (
-    <section className="bg-sand-200">
-      <div className="max-w-screen-lg mx-auto w-full lg:flex lg:gap-16 pt-32 pb-16 px-5 border-solid border-t border-sand-500">
+    <section className="bg-slate-50">
+      <div className="max-w-screen-lg mx-auto w-full pb-16 px-5">
+        <div className="lg:flex lg:gap-16 pt-32 border-solid border-t border-slate-500">
         <div className="lg:w-1/2">
-          <h2 className="text-h2 text-purple-500 mt-4">
+          <h2 className="text-h2 text-slate-950 mt-4">
             3D Printing
           </h2>
 
-          <p className="text-p1 text-purple-500 mt-12">
+          <p className="text-p1 text-slate-950 mt-12">
             My passion for 3D modeling began at college, when I developed a 3D game on Unity including a complete textured map and 3D characters that I modeled myself on Blender.
           </p>
 
-          <p className="text-p1 text-purple-500 mt-8">
+          <p className="text-p1 text-slate-950 mt-8">
             In 2021 I tried out 3D printing and absolutely fell in love with the possibility of creating anything straight out of my imagination.
           </p>
 
-          <p className="text-p1 text-purple-500 mt-8">
+          <p className="text-p1 text-slate-950 mt-8">
             I own a Creality CR-10 V3 FDM printer.
           </p>
         </div>
@@ -50,6 +51,7 @@ export default function Section3DPrinting () {
             images={threeDPrintingImages}
             name="3d-printing"
           />
+        </div>
         </div>
       </div>
     </section>

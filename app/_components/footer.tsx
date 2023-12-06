@@ -1,6 +1,6 @@
 export default function Footer () {
   return (
-    <footer className="bg-neutral-500 text-sand-100">
+    <footer className="bg-slate-800 text-slate-50">
       <div className="max-w-screen-lg mx-auto w-full pt-20 pb-24 px-5">
         <div>
           <h2 className="text-h2">
