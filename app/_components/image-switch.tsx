@@ -31,7 +31,7 @@ export default function ImageSwitch ({ images, name }: { images: Array<Image>, n
         {
           images.map((image, index) => (
             <input
-              className="appearance-none rounded-xl w-3 h-3 bg-sand-100 checked:bg-sand-400 cursor-pointer"
+              className="appearance-none rounded-xl w-3 h-3 bg-slate-400 checked:bg-slate-600 cursor-pointer"
               type="radio"
               id={image.id}
               key={image.id}
