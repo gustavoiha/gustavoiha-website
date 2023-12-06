@@ -28,7 +28,7 @@ export default function Navigation () {
 
   const toggleVisibility = () => setShowLinks(!showLinks)
 
-  const getCurrentLinkStyle = (href: string) => pathname === href ? 'font-medium text-purple-800' : ''
+  const getCurrentLinkStyle = (href: string) => pathname === href ? 'font-medium text-purple-800' : 'text-slate-950'
 
   const visibilityStyle = showLinks ? 'block' : 'hidden'
 
@@ -40,7 +40,7 @@ export default function Navigation () {
             <Link
               href={link.href}
               key={link.href}
-              className={`md:block ${getCurrentLinkStyle(link.href)} ${visibilityStyle}`}
+              className={`hover:text-purple-800 md:block ${getCurrentLinkStyle(link.href)} ${visibilityStyle}`}
             >
               {link.label}
             </Link>
