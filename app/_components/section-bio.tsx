@@ -15,9 +15,10 @@ export default function SectionBio () {
         </p>
 
         <p className="text-p1 text-slate-950 mt-8">
-          I was a <span className="text-purple-800 font-medium">
-            recognized technical leader in front-end
-          </span>, expert at JavaScript, CSS3, HTML5, VueJS 3, and Nuxt, and adept at addressing SEO, accessibility, and performance. My expertise extends to AWS S3 and Cloudfront, CI/CD pipelines, Vite, Babel, Webpack and Ruby on Rails.
+          I was <span className="text-purple-800 font-medium">
+            recognized for strong contributions
+          </span>, expert at JavaScript, CSS3, HTML5, VueJS 3, and Nuxt, and adept at addressing SEO, accessibility, and performance.
+          My expertise extends to AWS, CI/CD pipelines, Vite, Babel, Webpack, OO programming, data modeling, and Ruby on Rails back-end development.
         </p>
 
         <p className="text-p1 text-slate-950 mt-8">
