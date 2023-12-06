@@ -9,7 +9,7 @@ import Section3DPrinting from './_components/section-3d-printing'
 
 export default function Home () {
   return (
-    <div>
+    <article>
       <SectionHero />
 
       <SectionBio />
@@ -25,6 +25,6 @@ export default function Home () {
       <SectionNature />
 
       <Section3DPrinting />
-    </div>
+    </article>
   )
 }
