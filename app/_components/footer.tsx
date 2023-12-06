@@ -15,7 +15,7 @@ export default function Footer () {
             <ul className="list-disc pl-8">
               <li className="text-p2">React</li>
               <li className="text-p2">Next.js</li>
-              <li className="text-p2">Vercel</li>
+              <li className="text-p2">Tailwind CSS</li>
             </ul>
           </section>
 

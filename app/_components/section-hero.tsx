@@ -5,7 +5,7 @@ import profilePicture from '@/images/gustavo-iha-profile.png'
 export default function SectionHero () {
   return (
     <section className="bg-gradient-to-t from-slate-200 to-slate-50 from-10% to-10%">
-      <div className="max-w-screen-lg mx-auto w-full md:flex pt-20 md:pt-40 px-5">
+      <div className="max-w-screen-lg mx-auto w-full md:flex pt-20 md:pt-32 px-5">
         <div className="md:w-1/2">
           <p className="text-h2 text-purple-800">
             Hey! I'm
