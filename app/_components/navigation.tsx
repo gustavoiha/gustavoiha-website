@@ -11,15 +11,6 @@ const links = [{
 }, {
   label: 'work experience',
   href: '/work-experience'
-}, {
-  label: 'side projects',
-  href: '/side-projects'
-}, {
-  label: 'contact me',
-  href: '/contact-me'
-}, {
-  label: 'visitor shoutouts',
-  href: '/visitor-shoutouts'
 }]
 
 export default function Navigation () {
