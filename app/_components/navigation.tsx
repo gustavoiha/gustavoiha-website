@@ -11,6 +11,9 @@ const links = [{
 }, {
   label: 'work experience',
   href: '/work-experience'
+}, {
+  label: 'contact',
+  href: '/contact'
 }]
 
 export default function Navigation () {

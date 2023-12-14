@@ -1,11 +1,12 @@
+import { ReactElement } from 'react'
 import ExperienceTime from '@/app/_components/experience-time'
 
-export default function WorkExperience () {
+export default function WorkExperience (): ReactElement {
   return (
     <article>
       <section className="bg-gradient-to-t from-slate-200 to-slate-50 from-15% to-15% md:from-10% md:to-10%">
         <div className="max-w-screen-lg mx-auto w-full pt-20 md:pt-32 px-5">
-          <h1 className="text-h1 text-purple-800 font-medium mt-4">
+          <h1 className="text-h1 text-purple-800 font-medium">
             My professional experience
           </h1>
 
