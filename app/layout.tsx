@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import Footer from './_components/footer'
 import Navigation from './_components/navigation'
 
@@ -28,6 +30,8 @@ export default function RootLayout({
         </main>
 
         <Footer />
+
+        <SpeedInsights />
       </body>
     </html>
   )
