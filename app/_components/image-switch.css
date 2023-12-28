@@ -1,0 +1,9 @@
+.image-switch::-webkit-scrollbar {
+  width: 20px;
+  height: 4px;
+}
+
+.image-switch::-webkit-scrollbar-thumb {
+  background: #64748b;
+  border-radius: 5px;
+}
